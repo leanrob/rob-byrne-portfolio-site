@@ -1,0 +1,25 @@
+#about-rob-container {
+	box-sizing: border-box;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: white;
+	background-size: cover;
+}
+
+.about-header {
+	font-size: 3em;
+}
+
+.about-strip {
+	position: absolute;
+	background: linear-gradient(0deg, rgba(164, 0, 217, 0) 0%, rgba(80, 187, 137, 0.3) 35%, rgba(15, 136, 251, 0.3) 65%, rgba(255, 67, 134, 0) 100%);
+}
+#about-strip1 {
+	width: 20vh;
+	height: 120vh;
+	left: 50%;
+	transform: translate3d(-175%, -15%, 0) rotateZ(30deg);
+}

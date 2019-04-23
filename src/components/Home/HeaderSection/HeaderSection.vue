@@ -1,5 +1,5 @@
 <template>
-  <div id="shape_contain">
+  <div id="header-container">
     <div id="circle"></div>
     <div id="tri1"></div>
     <div id="strip1" class="strip"></div>
@@ -19,9 +19,6 @@
 <script>
 export default {
   name: "HeaderSection",
-  props: {
-    msg: String
-  }
 };
 </script>
 
