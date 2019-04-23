@@ -1,0 +1,172 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+#shape_contain {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+	//border: 20px solid rgba(7, 47, 46, 0.8);
+	background: linear-gradient(0deg, rgba(7, 47, 46, 0.8) 0%, rgba(255, 252, 226, 0.5) 100%), url(assets/mountain.jpg) no-repeat center center;
+	background-size: cover;
+	// Comment out for a more green background on the mountains
+	background-blend-mode: multiply;
+}
+#circle {
+	width: 80vh;
+	height: 80vh;
+	border-radius: 80%;
+	background: rgba(136, 239, 231, 0.3);
+	position: absolute;
+	top: 7vh;
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.3);
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		width: 50vh;
+		height: 50vh;
+		top: 20vh;
+	}
+}
+#tri1 {
+	clip-path: polygon(0 0, 100% 0, 50% 100%);
+	width: 100vh;
+	height: 88vh;
+	background: url(assets/vancouver2.jpg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 10vh;
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	filter: hue-rotate(310deg) contrast(140%);
+	opacity: 0.8;
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		width: 50vh;
+		height: 50vh;
+		top: 25vh;
+	}
+}
+#tri2 {
+	clip-path: polygon(50% 0, 0% 100%, 9% 100%, 50% 17%, 50% 17%, 85% 91%, 13% 91%, 0 100%, 100% 100%, 50% 0);
+	width: 80vh;
+	height: 70vh;
+	background: url(assets/code.jpg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 1vh;
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	filter: hue-rotate(90deg) contrast(140%);
+	//background-blend-mode: color-dodge;
+	opacity: 0.6;
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		width: 50vh;
+		height: 50vh;
+		top: 20vh;
+	}
+}
+#tri3 {
+	clip-path: polygon(50% 0, 0% 100%, 9% 100%, 50% 17%, 50% 17%, 85% 91%, 13% 91%, 0 100%, 100% 100%, 50% 0);
+	width: 80vh;
+	height: 70vh;
+	background: rgba(0, 113, 110, 0.2);
+	position: absolute;
+	top: 20vh;
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		width: 50vh;
+		height: 50vh;
+		top: 20vh;
+	}
+}
+.strip {
+	position: absolute;
+	background: linear-gradient(0deg, rgba(164, 0, 217, 0) 0%, rgba(80, 187, 137, 0.3) 35%, rgba(15, 136, 251, 0.3) 65%, rgba(255, 67, 134, 0) 100%);
+}
+#strip1 {
+	width: 20vh;
+	height: 120vh;
+	left: 50%;
+	transform: translate3d(-175%, -15%, 0) rotateZ(30deg);
+}
+#strip2 {
+	width: 5vh;
+	height: 90vh;
+	left: 50%;
+	transform: translate3d(60vh, -15%, 0) rotateZ(30deg);
+}
+#strip3 {
+	width: 5vh;
+	height: 90vh;
+	left: 50%;
+	transform: translate3d(-70vh, 25%, 0) rotateZ(30deg);
+}
+#leftside {
+	position: absolute;
+	left: 20px;
+	top: 70%;
+	transform-origin: 10% 0%;
+	transform: rotate(-90deg);
+}
+#rightside {
+	position: absolute;
+	right: 20px;
+	top: 70%;
+	transform-origin: 90% 0%;
+	transform: rotate(90deg);
+}
+#topLeft {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 180px;
+	text-align: center;
+}
+#topLeft span {
+	font-size: 1.8em;
+}
+#topRight {
+	position: absolute;
+	right: 35px;
+	top: 25px;
+	line-height: 100px;
+	font-size: 1.4em;
+	width: 100px;
+	height: 100px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		visibility: hidden;
+	}
+}
+#headline {
+	position: absolute;
+	width: 100%;
+	z-index: 200;
+	padding-top: 65vh;
+	font-family: 'Arvo', serif;
+	text-align: center;
+	color: rgba(80, 187, 137, 1.00);
+	font-size: 8vw;
+	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.5);
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		font-size: 20vw;
+		padding-top: 75vh;
+	}
+}
