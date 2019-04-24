@@ -19,7 +19,6 @@ html {
 	height: 115vh;
 	overflow: hidden;
 	transform: translate3d(0, 0, 0);
-	//border: 20px solid rgba(7, 47, 46, 0.8);
 	background: linear-gradient(0deg, rgba(7, 47, 46, 0.8) 0%, rgba(255, 252, 226, 0.5) 100%), url(assets/mountain.jpg) no-repeat center center;
 	background-size: cover;
 	// Comment out for a more green background on the mountains
@@ -73,7 +72,6 @@ html {
 	left: 50%;
 	transform: translate3d(-50%, 0, 0);
 	filter: hue-rotate(90deg) contrast(140%);
-	//background-blend-mode: color-dodge;
 	opacity: 0.6;
 
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -125,6 +123,9 @@ html {
 	top: 70%;
 	transform-origin: 10% 0%;
 	transform: rotate(-90deg);
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		visibility: hidden;
+	}
 }
 #rightside {
 	position: absolute;
@@ -132,6 +133,9 @@ html {
 	top: 70%;
 	transform-origin: 90% 0%;
 	transform: rotate(90deg);
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		visibility: hidden;
+	}
 }
 #topLeft {
 	position: absolute;
@@ -170,7 +174,6 @@ html {
 	color: rgba(80, 187, 137, 1.00);
 	font-size: 8vw;
 	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.5);
-	//font-family: 'Shrikhand', cursive;
 
 
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

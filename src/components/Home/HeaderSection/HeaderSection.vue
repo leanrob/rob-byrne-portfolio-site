@@ -9,7 +9,7 @@
     <div id="strip3" class="strip"></div>
     <div id="leftside">Build > Test > Measure > Iterate</div>
     <div id="rightside">Rust > React > Vue > GCP</div>
-    <div id="topLeft">Entrepreneur
+    <div id="topLeft">Full Stack
       <br><span>Software Dev</span></div>
     <div id="topRight">2019</div>
     <div id="headline">Rob Byrne</div>
