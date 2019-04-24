@@ -1,34 +1,4 @@
-# rob-byrne-portfolio-site
+# Rob Byrne's Portfolio Site
 
-## Project setup
-```
-yarn install
-```
+ToDo: Fill in this readme with some links to the technologies that were used to make this site.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
