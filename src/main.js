@@ -6,6 +6,7 @@ import store from "./store";
 import 'vue-awesome/icons/brands/instagram';
 import 'vue-awesome/icons/brands/linkedin-in';
 import 'vue-awesome/icons/brands/github';
+import 'vue-awesome/icons/brands/codepen';
 import 'vue-awesome/icons/rss';
 import 'vue-awesome/icons/heart';
 
