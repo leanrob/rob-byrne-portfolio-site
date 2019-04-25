@@ -14,6 +14,15 @@
 	text-transform: uppercase;
 	box-shadow: 12px 16px 35px 0px rgba(0,0,0,0.30);
 	transition: box-shadow 150ms linear, background-color 150ms linear, transform 150ms linear;
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		width: 5em;
+		height: 5em;
+		margin: 20px !important;
+		padding: 20px;
+		align-content: space-between;
+	}
+
 	&:hover {
 		transform: scale(.98);
 		background-color: darken($bg-color-hover, 10%);
@@ -34,16 +43,23 @@
 	justify-content: flex-end;
 	align-items: center;
 
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		height: 500px;
+	}
+
 	.social-links {
 		display: flex;
-		justify-content: space-between;
-		width: 1000px;
+		justify-content: space-around;
+		max-width: 1100px;
+		width: 100%;
 		margin-bottom: 50px;
+		flex-wrap: wrap;
 
 		&__card {
 
 			&--insta {
 				@include social-card(rgba(184, 50, 109, 0.3), rgba(184, 50, 109, 0.4));
+				margin: 20px;
 			}
 
 			&--linkedin {
@@ -66,6 +82,12 @@
 		font-family: 'Arvo', serif;
 		color: white;
 		padding: 42px 0;
+		vertical-align: middle;
+
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+			font-size: 1.2em;
+
+		}
 
 		&__link {
 			text-decoration: none;
