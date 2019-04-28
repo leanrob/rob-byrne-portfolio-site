@@ -2,6 +2,7 @@
   <div class="home">
     <HeaderSection />
     <AboutRobSection />
+    <LanguagesFrameworksSection />
     <FooterSection />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import HeaderSection from "../components/Home/HeaderSection/HeaderSection";
 import AboutRobSection from "../components/Home/AboutRobSection/AboutRobSection";
 import FooterSection from "../components/Home/FooterSection/FooterSection";
+import LanguagesFrameworksSection from "../components/Home/LanguagesFrameworksSection/LanguagesFrameworksSection";
 
 export default {
   name: "home",
@@ -18,6 +20,7 @@ export default {
 	  HeaderSection,
       AboutRobSection,
       FooterSection,
+      LanguagesFrameworksSection,
   }
 };
 </script>
