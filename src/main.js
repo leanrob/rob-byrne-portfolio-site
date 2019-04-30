@@ -10,6 +10,7 @@ import 'vue-awesome/icons/brands/github';
 import 'vue-awesome/icons/brands/codepen';
 import 'vue-awesome/icons/rss';
 import 'vue-awesome/icons/heart';
+import 'vue-awesome/icons/check';
 
 /* Register component with one of 2 methods */
 

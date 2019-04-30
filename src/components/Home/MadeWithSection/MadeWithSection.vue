@@ -11,19 +11,31 @@
                     </div>
                     <div class="text-section__point-list">
                         <div class="text-section__point-list--item">
-                            <h4>
-                                check - Javascript
-                            </h4>
+                            <span>
+                                <v-icon name="check" scale="1" />
+                                <h4>
+                                    Javascript
+                                </h4>
+                            </span>
+                            <a href="https://vuejs.org/" target="_blank"><img src="./../../../assets/logos/vue-logo-with-text.png"/></a>
                         </div>
                         <div class="text-section__point-list--item">
-                            <h4>
-                                check - Deployment
-                            </h4>
+                            <span>
+                                <v-icon name="check" scale="1" />
+                                <h4>
+                                    Deployment
+                                </h4>
+                            </span>
+                            <a href="https://cloud.google.com/" target="_blank"><img src="./../../../assets/logos/google-cloud-platform-with-text.png"/></a>
                         </div>
                         <div class="text-section__point-list--item">
-                            <h4>
-                                check - Open Source Code
-                            </h4>
+                            <span>
+                                <v-icon name="check" scale="1" />
+                                <h4>
+                                    Open Source Code
+                                </h4>
+                            </span>
+                            <a href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank"><img src="./../../../assets/logos/github-logo-with-text.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -35,15 +47,13 @@
                     <div class="window-control green"> </div>
                     <div class="text-window">
                         <div class="blinking-cursor">
-                            <p>$</p> <span>_</span>
+                            <p>$ yarn add vue</p> <span>_</span>
                         </div>
                         <div class="google-cloud">
-                            Google cloud
-                            -- image
+
                         </div>
                         <div class="github">
-                            Google cloud
-                            -- image
+
                         </div>
                     </div>
                 </div>
