@@ -35,7 +35,7 @@
                     <div class="window-control green"> </div>
                     <div class="text-window">
                         <div class="blinking-cursor">
-                            $ <span>_</span>
+                            <p>$</p> <span>_</span>
                         </div>
                         <div class="google-cloud">
                             Google cloud
