@@ -15,6 +15,7 @@ import AboutRobSection from "../components/Home/AboutRobSection/AboutRobSection"
 import FooterSection from "../components/Home/FooterSection/FooterSection";
 import LanguagesFrameworksSection from "../components/Home/LanguagesFrameworksSection/LanguagesFrameworksSection";
 import MadeWithSection from "../components/Home/MadeWithSection/MadeWithSection";
+import { page } from 'vue-analytics'
 
 export default {
   name: "home",
@@ -24,6 +25,11 @@ export default {
       FooterSection,
       LanguagesFrameworksSection,
       MadeWithSection,
-  }
+  },
+  methods: {
+    track () {
+      page('/')
+    }
+  },
 };
 </script>

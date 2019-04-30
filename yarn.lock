@@ -7278,6 +7278,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-analytics@^5.16.4:
+  version "5.16.4"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.4.tgz#7f9e197cbc64afac96884a05214b17efaf8e9d09"
+
 vue-awesome@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-3.5.1.tgz#cbd4572847b3a31e56411e7ab7e46f5459e9b195"
