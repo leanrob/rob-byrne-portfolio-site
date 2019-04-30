@@ -3,7 +3,7 @@
 	background-color: rgba(0, 120, 181, 1.00);
 	//background-color: rgba(15, 136, 251, 1.0);
 
-	height: 950px;
+	height: 1000px;
 	overflow: hidden;
 
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -47,11 +47,44 @@
 					font-weight: 400;
 					line-height: 32px;
 					text-align: left !important;
+
+					&--vue {
+						text-decoration: none;
+						color: white;
+						font-weight: bold;
+						font-style: italic;
+
+						&:hover {
+							//color: rgba(0, 190, 131, 0.9);
+						}
+					}
+
+					&--gcp {
+						text-decoration: none;
+						color: white;
+						font-weight: bold;
+						font-style: italic;
+
+						&:hover {
+							//color: rgba(233, 69, 57, 0.9);
+						}
+					}
+
+					&--github {
+						text-decoration: none;
+						color: white;
+						font-weight: bold;
+						font-style: italic;
+
+						&:hover {
+							//color: rgba(32, 31, 31, 0.9);
+						}
+					}
 				}
 
 				&__point-list {
 					text-align: left;
-					margin-bottom: 42px !important;
+					padding-bottom: 42px !important;
 					&--item {
 						span {
 							padding-top: 60px;

@@ -7,7 +7,9 @@
                         How This Website Was Made
                     </div>
                     <div class="text-section__overview">
-                        This site was is written in VueJs, deployed to a bucket hosted on the Google Cloud Platform. View source code for this site on Github.
+                        This website is a web app made using <a class="text-section__overview--vue" href="https://vuejs.org/" target="_blank">Vue.js</a>,
+                        deployed to a bucket hosted on <a class="text-section__overview--gcp" href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>.
+                        The code is open source and can be viewed on <a class="text-section__overview--github" href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank">Github</a>.
                     </div>
                     <div class="text-section__point-list">
                         <div class="text-section__point-list--item">
