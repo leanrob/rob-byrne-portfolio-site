@@ -7,11 +7,12 @@ html {
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 	background-color: rgba(5, 7, 15, 1.00);
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		-webkit-overflow-scrolling: touch;
+	}
 }
 
-//font-family: 'Shrikhand', cursive;
-//font-family: 'Sansita', sans-serif;
-//font-family: 'Scope One', serif;
 #header-container {
 	box-sizing: border-box;
 	text-transform: uppercase;
