@@ -22,8 +22,6 @@ html {
 	transform: translate3d(0, 0, 0);
 	background: linear-gradient(0deg, rgba(7, 47, 46, 0.8) 0%, rgba(255, 252, 226, 0.5) 100%), url(assets/mountain.jpg) no-repeat center center;
 	background-size: cover;
-	// Comment out for a more green background on the mountains
-	//background-blend-mode: multiply;
 	mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0, 0, 0, 0) 100%);
 }
 #circle {
