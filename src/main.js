@@ -15,6 +15,7 @@ import 'vue-awesome/icons/heart';
 
 import Icon from 'vue-awesome/components/Icon';
 
+// ToDo: Move this to an uncommited .env file
 Vue.use(VueAnalytics, {
   id: 'UA-139335465-1',
   router
