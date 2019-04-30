@@ -2,6 +2,7 @@
   <div class="home">
     <HeaderSection />
     <AboutRobSection />
+    <MadeWithSection />
     <LanguagesFrameworksSection />
     <FooterSection />
   </div>
@@ -13,6 +14,7 @@ import HeaderSection from "../components/Home/HeaderSection/HeaderSection";
 import AboutRobSection from "../components/Home/AboutRobSection/AboutRobSection";
 import FooterSection from "../components/Home/FooterSection/FooterSection";
 import LanguagesFrameworksSection from "../components/Home/LanguagesFrameworksSection/LanguagesFrameworksSection";
+import MadeWithSection from "../components/Home/MadeWithSection/MadeWithSection";
 
 export default {
   name: "home",
@@ -21,6 +23,7 @@ export default {
       AboutRobSection,
       FooterSection,
       LanguagesFrameworksSection,
+      MadeWithSection,
   }
 };
 </script>

@@ -13,6 +13,12 @@
                 </p>
             </div>
             <div class="languages-frameworks-section__logos--logo">
+                <img src="./../../../assets/logos/vue-logo.png"/>
+                <p>
+                    Vue
+                </p>
+            </div>
+            <div class="languages-frameworks-section__logos--logo">
                 <img src="./../../../assets/logos/react-logo.png"/>
                 <p>
                     React

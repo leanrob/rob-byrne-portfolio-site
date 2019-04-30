@@ -1,0 +1,183 @@
+.made-with-section {
+	width: 100vw;
+	background-color: rgba(0, 120, 181, 1.00);
+	height: 950px;
+	overflow: hidden;
+	background-color: green;
+
+	&__content {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-top: 130px;
+
+		&--left {
+			flex: 0 50%;
+			// background-color: lightblue;
+			// margin: 0 16.6%;
+
+			.text-section {
+				padding: 0 20%;
+
+				&__heading {
+					font-size: 42px;
+					font-weight: bold;
+					line-height: 52px;
+					margin-bottom: 25px;
+				}
+
+				&__overview {
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 32px;
+				}
+
+				&__point-list {
+					&--item {
+						margin-top: 55px;
+						h4 {
+							font-size: 18px;
+							font-weight: 500;
+						}
+					}
+				}
+
+			}
+		}
+
+		&--right {
+			flex: 1 50%;
+			background-color: red;
+
+			.mac-window {
+				overflow: hidden;
+				width: 60%;
+				border-top: 2px solid white;
+				border-radius: 10px;
+				height: 925px;
+				margin: 4% 0 10% 6%;
+				background-color: white;
+				position: absolute;
+				-webkit-box-shadow: -5px 10px 40px 10px rgba(0,0,0,0.30);
+				-moz-box-shadow: -5px 10px 40px 10px rgba(0,0,0,0.30);
+				box-shadow: -5px 10px 40px 10px rgba(0,0,0,0.30);
+			}
+
+			.text-window {
+				margin-top: 2em;
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+				height: 900px;
+				background-color: black;
+			}
+
+			li {
+				display: inline;
+			}
+
+			.window-control {
+				width: 15px;
+				height: 15px;
+				border-radius: 20px;
+				margin: 2px;
+				float: left;
+				margin-top: 7px;
+				margin-right: 5px;
+			}
+
+			.red {
+				background-color: #df6961;
+				margin-left: 10px;
+			}
+
+			.yellow {
+				background-color: #f2bc57;
+			}
+
+			.green {
+				background-color: #6bb358;
+			}
+
+			/*Blinking cursor class is credited to
+			Blinking cursor in CSS3
+			A PEN BY Artem Gordinsky*/
+
+			.blinking-cursor {
+				height: 300px;
+				font-weight: 100;
+				font-size: 30px;
+				color: #FFFFFF;
+				margin-left: 10px;
+				span {
+					-webkit-animation: 1s blink step-end infinite;
+					-moz-animation: 1s blink step-end infinite;
+					-ms-animation: 1s blink step-end infinite;
+					-o-animation: 1s blink step-end infinite;
+					animation: 1s blink step-end infinite;
+				}
+			}
+
+			.google-cloud {
+				width: 100%;
+				height: 300px;
+				background-color: green;
+				border-top: 1px solid rgba(133, 142, 142, 0.7);
+			}
+
+			.github {
+				width: 100%;
+				height: 300px;
+				background-color: blue;
+				border-top: 1px solid rgba(133, 142, 142, 0.7);
+			}
+
+			@keyframes blink {
+				from, to {
+					color: transparent;
+				}
+				50% {
+					color: white;
+				}
+			}
+
+			@-moz-keyframes blink {
+				from, to {
+					color: transparent;
+				}
+				50% {
+					color: white;
+				}
+			}
+
+			@-webkit-keyframes blink {
+				from, to {
+					color: transparent;
+				}
+				50% {
+					color: white;
+				}
+			}
+
+			@-ms-keyframes blink {
+				from, to {
+					color: transparent;
+				}
+				50% {
+					color: white;
+				}
+			}
+
+			@-o-keyframes blink {
+				from, to {
+					color: transparent;
+				}
+				50% {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
