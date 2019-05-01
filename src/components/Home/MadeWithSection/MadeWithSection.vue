@@ -19,7 +19,7 @@
                                     Javascript
                                 </h4>
                             </span>
-                            <a href="https://vuejs.org/" target="_blank" rel="noopener"><img src="./../../../assets/logos/vue-logo-with-text.png"/></a>
+                            <a href="https://vuejs.org/" target="_blank" rel="noopener"><img src="./../../../assets/logos/vue-logo-with-text.png" alt="VueJs Logo"/></a>
                         </div>
                         <div class="text-section__point-list--item">
                             <span>
@@ -28,7 +28,7 @@
                                     Deployment
                                 </h4>
                             </span>
-                            <a href="https://cloud.google.com/" target="_blank" rel="noopener"><img src="./../../../assets/logos/google-cloud-platform-with-text.png"/></a>
+                            <a href="https://cloud.google.com/" target="_blank" rel="noopener"><img src="./../../../assets/logos/google-cloud-platform-with-text.png" alt="Google Cloud Platform Logo"/></a>
                         </div>
                         <div class="text-section__point-list--item">
                             <span>
@@ -37,7 +37,7 @@
                                     Open Source Code
                                 </h4>
                             </span>
-                            <a href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank" rel="noopener"><img src="./../../../assets/logos/github-logo-with-text.png"/></a>
+                            <a href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank" rel="noopener"><img src="./../../../assets/logos/github-logo-with-text.png" alt="Github Logo"/></a>
                         </div>
                     </div>
                 </div>
