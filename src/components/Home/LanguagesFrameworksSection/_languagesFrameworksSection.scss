@@ -1,7 +1,6 @@
 .languages-frameworks-section {
 	width: 100vw;
 	background-color: rgba(243, 243, 243, 1.00);
-	//mask-image: linear-gradient(to top, rgba(243, 243, 243, 1.00) 90%, rgba(26, 45, 54, 0) 100%);
 	margin: 0 42px;
 
 	&__heading {
@@ -14,7 +13,6 @@
 		}
 
 		h2 {
-			//text-shadow: rgba(6, 12, 19, 0.3) 0.1em 0.1em 0.2em;
 			padding: 20px 20px;
 			color: rgba(65, 184, 131, 1.00);
 		}
@@ -78,8 +76,8 @@
 				height: auto;
 
 				@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-					max-width: 50px;
-					max-height: 40px;
+					max-width: 100px;
+					max-height: 100px;
 					width: auto;
 					height: auto;
 					-webkit-filter: grayscale(0);
@@ -98,8 +96,8 @@
 				height: auto;
 
 				@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-					max-width: 60px;
-					max-height: 45px;
+					max-width: 105px;
+					max-height: 105px;
 					width: auto;
 					height: auto;
 					-webkit-filter: grayscale(0);

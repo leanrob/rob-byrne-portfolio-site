@@ -7,9 +7,9 @@
                         How This Website Was Made
                     </div>
                     <div class="text-section__overview">
-                        This website is a web app made using <a class="text-section__overview--vue" href="https://vuejs.org/" target="_blank">Vue.js</a>,
-                        deployed to a bucket hosted on <a class="text-section__overview--gcp" href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>.
-                        The code is open source and can be viewed on <a class="text-section__overview--github" href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank">Github</a>.
+                        This website is a web app made using <a class="text-section__overview--vue" href="https://vuejs.org/" target="_blank" rel="noopener">Vue.js</a>,
+                        deployed to a bucket hosted on <a class="text-section__overview--gcp" href="https://cloud.google.com/" target="_blank" rel="noopener">Google Cloud Platform</a>.
+                        The code is open source and can be viewed on <a class="text-section__overview--github" href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank" rel="noopener">Github</a>.
                     </div>
                     <div class="text-section__point-list">
                         <div class="text-section__point-list--item">
@@ -19,7 +19,7 @@
                                     Javascript
                                 </h4>
                             </span>
-                            <a href="https://vuejs.org/" target="_blank"><img src="./../../../assets/logos/vue-logo-with-text.png"/></a>
+                            <a href="https://vuejs.org/" target="_blank" rel="noopener"><img src="./../../../assets/logos/vue-logo-with-text.png"/></a>
                         </div>
                         <div class="text-section__point-list--item">
                             <span>
@@ -28,7 +28,7 @@
                                     Deployment
                                 </h4>
                             </span>
-                            <a href="https://cloud.google.com/" target="_blank"><img src="./../../../assets/logos/google-cloud-platform-with-text.png"/></a>
+                            <a href="https://cloud.google.com/" target="_blank" rel="noopener"><img src="./../../../assets/logos/google-cloud-platform-with-text.png"/></a>
                         </div>
                         <div class="text-section__point-list--item">
                             <span>
@@ -37,7 +37,7 @@
                                     Open Source Code
                                 </h4>
                             </span>
-                            <a href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank"><img src="./../../../assets/logos/github-logo-with-text.png"/></a>
+                            <a href="https://github.com/leanrob/rob-byrne-portfolio-site" target="_blank" rel="noopener"><img src="./../../../assets/logos/github-logo-with-text.png"/></a>
                         </div>
                     </div>
                 </div>
