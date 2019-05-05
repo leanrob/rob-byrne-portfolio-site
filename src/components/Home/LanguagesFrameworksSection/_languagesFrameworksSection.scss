@@ -82,6 +82,12 @@
 					height: auto;
 					-webkit-filter: grayscale(0);
 				}
+
+				@media screen and (orientation:landscape) {
+					width: auto;
+					height: auto;
+					-webkit-filter: grayscale(0);
+				}
 			}
 
 			/* Disable grayscale on hover */

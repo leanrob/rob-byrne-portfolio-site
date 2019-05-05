@@ -6,6 +6,10 @@
 	height: 1000px;
 	overflow: hidden;
 
+	@media screen and (orientation:landscape) {
+		height: 870px;
+	}
+
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		height: auto;
 	}
@@ -22,6 +26,10 @@
 			padding-top: 80px;
 		}
 
+		@media screen and (orientation:landscape) {
+			padding-top: 80px;
+		}
+
 		&--left {
 			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 				flex: 1 100vw;
@@ -33,6 +41,14 @@
 			.text-section {
 				padding: 0 10%;
 				color: white;
+
+				@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+					padding: 0 5%;
+				}
+
+				@media screen and (orientation:landscape) {
+					padding: 0 5%;
+				}
 
 				&__heading {
 					font-size: 42px;
@@ -47,6 +63,14 @@
 					font-weight: 400;
 					line-height: 32px;
 					text-align: left !important;
+
+					@media screen and (orientation:landscape) {
+						text-align: center !important;
+					}
+
+					@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+						text-align: center !important;
+					}
 
 					&--vue {
 						text-decoration: none;
@@ -85,15 +109,52 @@
 				&__point-list {
 					text-align: left;
 					padding-bottom: 42px !important;
+
 					&--item {
+
+						@media screen and (orientation:landscape) {
+							display: flex;
+							align-items: center;
+							flex-direction: column;
+						}
+
+						@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+							display: flex;
+							align-items: center;
+							flex-direction: column;
+						}
+
 						span {
 							padding-top: 60px;
 							display: flex;
 							align-items: center;
+
+							@media screen and (orientation:landscape) {
+								svg {
+									width: 24px;
+									height: 24px;
+								};
+							}
+
+							@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+								svg {
+									width: 24px;
+									height: 24px;
+								}
+							}
+
 							h4 {
 								padding-left: 20px;
 								font-size: 18px;
 								font-weight: 500;
+
+								@media screen and (orientation:landscape) {
+									font-size: 26px;
+								}
+
+								@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+									font-size: 26px;
+								}
 							}
 						}
 						img {
