@@ -174,10 +174,10 @@
 				display: none;
 			}
 
-			//@media screen and (orientation:landscape) {
-			//	visibility: hidden;
-			//	display: none;
-			//}
+			@media screen and (orientation:landscape) {
+				visibility: hidden;
+				display: none;
+			}
 
 			flex: 0 50%;
 			overflow: visible;
