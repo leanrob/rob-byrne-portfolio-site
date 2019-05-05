@@ -107,6 +107,13 @@
 	top: 70%;
 	transform-origin: 10% 0%;
 	transform: rotate(-90deg);
+
+	@media screen and (orientation:landscape) {
+		left: 0;
+		font-size: 0.8em;
+		top: 65%;
+	}
+
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		visibility: hidden;
 	}
@@ -117,6 +124,13 @@
 	top: 70%;
 	transform-origin: 90% 0%;
 	transform: rotate(90deg);
+
+	@media screen and (orientation:landscape) {
+		right: 0;
+		font-size: 0.8em;
+		top: 60%;
+	}
+
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		visibility: hidden;
 	}
@@ -160,7 +174,8 @@
 	text-shadow: 0px 3px 50px rgba(0, 0, 0, 0.5);
 
 	@media screen and (orientation:landscape) {
-		font-size: 5vw !important;
+		font-size: 6.5vw !important;
+		padding-top: 70vh;
 	}
 
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
