@@ -1,14 +1,16 @@
+@import "../../../reusable";
+
 .made-with-section {
 	width: 100vw;
 	background-color: rgba(0, 120, 181, 1.00);
 	height: 1000px;
 	overflow: hidden;
 
-	@media screen and (orientation:landscape) {
+	@include media-landscape(mobile) {
 		height: 870px;
 	}
 
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	@include media-portrait(mobile) {
 		height: auto;
 	}
 
@@ -20,16 +22,17 @@
 		margin: 0 auto !important;
 		padding-top: 130px;
 
-		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		@include media-landscape(mobile) {
 			padding-top: 80px;
 		}
 
-		@media screen and (orientation:landscape) {
+		@include media-portrait(mobile) {
 			padding-top: 80px;
 		}
 
 		&--left {
-			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+			@include media-portrait(mobile) {
 				flex: 1 100vw;
 				width: 100vw;
 			}
@@ -40,11 +43,11 @@
 				padding: 0 10%;
 				color: white;
 
-				@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+				@include media-landscape(mobile) {
 					padding: 0 5%;
 				}
 
-				@media screen and (orientation:landscape) {
+				@include media-portrait(mobile) {
 					padding: 0 5%;
 				}
 
@@ -62,11 +65,11 @@
 					line-height: 32px;
 					text-align: left !important;
 
-					@media screen and (orientation:landscape) {
-						text-align: center !important;
+					@include media-landscape(mobile) {
+							text-align: center !important;
 					}
 
-					@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+					@include media-portrait(mobile) {
 						text-align: center !important;
 					}
 
@@ -98,13 +101,13 @@
 
 					&--item {
 
-						@media screen and (orientation:landscape) {
+						@include media-landscape(mobile) {
 							display: flex;
 							align-items: center;
 							flex-direction: column;
 						}
 
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+						@include media-portrait(mobile) {
 							display: flex;
 							align-items: center;
 							flex-direction: column;
@@ -115,14 +118,14 @@
 							display: flex;
 							align-items: center;
 
-							@media screen and (orientation:landscape) {
+							@include media-landscape(mobile) {
 								svg {
 									width: 24px;
 									height: 24px;
 								};
 							}
 
-							@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+							@include media-portrait(mobile) {
 								svg {
 									width: 24px;
 									height: 24px;
@@ -134,11 +137,11 @@
 								font-size: 18px;
 								font-weight: 500;
 
-								@media screen and (orientation:landscape) {
+								@include media-landscape(mobile) {
 									font-size: 26px;
 								}
 
-								@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+								@include media-portrait(mobile) {
 									font-size: 26px;
 								}
 							}
@@ -154,12 +157,13 @@
 		}
 
 		&--right {
-			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+			@include media-portrait(mobile) {
 				visibility: hidden;
 				display: none;
 			}
 
-			@media screen and (orientation:landscape) {
+			@include media-landscape(mobile) {
 				visibility: hidden;
 				display: none;
 			}
@@ -246,7 +250,6 @@
 			.google-cloud {
 				width: 750px;
 				height: 300px;
-				//background-color: green;
 				border-top: 1px solid rgba(133, 142, 142, 0.7);
 				background: url(assets/google-cloud-platform-screen.png) no-repeat left top;
 			}
