@@ -1,12 +1,13 @@
 .languages-frameworks-section {
 	width: 100vw;
 	background-color: rgba(243, 243, 243, 1.00);
-	margin: 0 42px;
+	//margin: 0 42px;
+	margin-top: -100px !important;
 
 	&__heading {
 		font-family: 'Arvo', serif;
 		font-size: 2em;
-		padding: 35px 20px 0 20px;
+		padding: 100px 20px 0 20px;
 
 		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 			font-size: 1.7em;
