@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="value-prop-section__content--right">
-                Right
+
             </div>
         </div>
     </div>
