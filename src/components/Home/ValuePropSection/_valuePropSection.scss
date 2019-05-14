@@ -19,10 +19,19 @@
 				width: 100%;
 				margin: 0 20px !important;
 			}
+
+			@include media-landscape(mobile) {
+				width: 100%;
+				margin: 0 20px !important;
+			}
 		}
 
 		&--right {
 			@include media-portrait(mobile) {
+				visibility: hidden;
+			}
+
+			@include media-landscape(mobile) {
 				visibility: hidden;
 			}
 			width: 50%;
@@ -46,6 +55,11 @@
 		font-size: 16px;
 
 		@include media-portrait(mobile) {
+			font-size: 15px;
+			margin: 10px 0 !important;
+		}
+
+		@include media-landscape(mobile) {
 			font-size: 15px;
 			margin: 10px 0 !important;
 		}
