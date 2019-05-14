@@ -7,7 +7,7 @@
                         Design Implementation
                     </div>
                     <div class="value-prop__text">
-                        I have developed beautiful and user-friendly interfaces for different industries. I use tools like Sass, CSS Animations, CSS Shapes, CSS Modules, CSS-in-JS and BEM.
+                        I have developed beautiful and user-friendly interfaces for different industries. I use tools like HTML5, CSS, Sass, CSS Animations, CSS Shapes, CSS Modules, CSS-in-JS, inline-styles and BEM as needed.
                     </div>
                 </div>
                 <div class="value-prop">
@@ -15,7 +15,7 @@
                         Constant Evolution
                     </div>
                     <div class="value-prop__text">
-                        No new skill is too hard. No new language/framework is unlearnable. Rust, Angular, React, Kubernetes are some of the things I have learned for specific purposes. No tool is my favourite, but I find the right one for the job.
+                        No new skill is too hard. No new language/framework is unlearnable. Rust, Angular, React, Kubernetes are some of the things I have learned for specific purposes. Always find and use the right tool for the job.
                     </div>
                 </div>
                 <div class="value-prop">
@@ -23,7 +23,7 @@
                         Infrastructure
                     </div>
                     <div class="value-prop__text">
-                        Implement processes for infrastructure management to automate DevOps environments. Tools like Docker, Kubernetes, Google Cloud Platform and RabbitMQ.
+                        Implement processes for infrastructure management to automate DevOps environments. Tools like Docker, Kubernetes, Google Cloud Platform, Google Analytics, metrics dashboards RabbitMQ and more.
                     </div>
                 </div>
                 <div class="value-prop">
